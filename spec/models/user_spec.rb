@@ -27,7 +27,5 @@ RSpec.describe User do
         expect(user_2).to_not be_valid
       end
     end
-
-    
   end
 end

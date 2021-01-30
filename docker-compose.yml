@@ -9,7 +9,8 @@ services:
     ports:
       - '3001:3001'
     environment:
-      DATABASE_URL: ''
+      DATABASE_URL: postgres://postgres:postgres@db:5432/rails-jwt
+      JWT_SECRET: secr3t
     tty: true
     depends_on:
       - db

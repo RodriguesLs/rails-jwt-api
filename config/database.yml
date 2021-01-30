@@ -82,5 +82,5 @@ test:
 production:
   <<: *default
   database: jwt_api_learn_production
-  username: jwt_api_learn
-  password: <%= ENV['JWT_API_LEARN_DATABASE_PASSWORD'] %>
+  username: postgres
+  password: postgres
